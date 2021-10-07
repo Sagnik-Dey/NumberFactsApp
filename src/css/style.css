@@ -1,0 +1,69 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container
+{
+    padding: 20px;
+    width: 50%;
+    background-color: rgb(62, 185, 62);
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(59, 165, 59);
+    height: auto;
+}
+.container:hover
+{
+    box-shadow: 0 0 25px rgb(62, 156, 62);
+}
+.container h1, .container h2, .container h3
+{
+    margin: 20px;
+    text-align: center;
+    color: #fff;
+}
+.container input[type="number"]
+{
+    width: 90.5%;
+    margin: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: chartreuse;
+    color: green;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.container input[type="number"]:focus
+{
+    width: 90.5%;
+    margin: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: chartreuse;
+    outline: none;
+}
+.container input[type="submit"]
+{
+    cursor: pointer;
+    font-size: 16px;
+    width: 94%;
+    margin: 20px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: chartreuse;
+    color: green;
+    font-weight: bold;
+    border: none ;
+    transition: 0.5s all;
+}
+.container input[type="submit"]:hover
+{
+    background-color: green;
+    color: chartreuse;
+}
