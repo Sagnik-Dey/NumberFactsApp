@@ -17,7 +17,7 @@ function generateNumberFact(e)
     }
     else
     {
-        const url = `http://numbersapi.com/${number}`;
+        const url = `http://numbersapi.com/${number}/`;
 
         const factXhr = new XMLHttpRequest();
         factXhr.open("GET", url, true);
